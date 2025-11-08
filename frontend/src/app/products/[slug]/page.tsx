@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { Toast } from "@/components/ui/toast";
 import Image from "next/image";
 import { ArrowLeft, Check } from "lucide-react";
+import { Alert, AlertTitle } from "@/components/ui/alert";
 
 interface ProductVariant {
   productColour: string;
@@ -31,6 +32,8 @@ export default function ProductDetailPage() {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [selectedEMI, setSelectedEMI] = useState<number | null>(null);
   const [showToast, setShowToast] = useState(false);
+  const [showPurchaseAlert, setShowPurchaseAlert] = useState(false);
+  const [showValidationAlert, setShowValidationAlert] = useState(false);
 
   useEffect(() => {
     if (slug) {
@@ -47,6 +50,19 @@ export default function ProductDetailPage() {
       </div>
     );
   }
+  const handleBuyNow = () => {
+    if (selectedEMI === null) {
+      setShowValidationAlert(true);
+      setTimeout(() => {
+        setShowValidationAlert(false);
+      }, 4000);
+      return;
+    }
+    setShowPurchaseAlert(true);
+    setTimeout(() => {
+      setShowPurchaseAlert(false);
+    }, 5000);
+  };
 
   if (error || !productById) {
     return (
@@ -258,10 +274,8 @@ export default function ProductDetailPage() {
               </CardContent>
             </Card>
           )}
-
-          {/* Action Buttons */}
           <div className="flex gap-4">
-            <Button size="lg" className="flex-1">
+            <Button onClick={handleBuyNow} size="lg" className="flex-1">
               Buy Now
             </Button>
             <Button size="lg" variant="outline" className="flex-1">
@@ -271,13 +285,31 @@ export default function ProductDetailPage() {
         </div>
       </div>
 
-      {/* Toast Notification */}
       <Toast
         message="Your plan is selected"
         isVisible={showToast}
         onClose={() => setShowToast(false)}
         duration={3000}
       />
+
+      {showPurchaseAlert && (
+        <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md px-4">
+          <Alert className="animate-slide-in-right border-green-500 bg-green-50 dark:bg-green-950">
+            <AlertTitle className="text-green-900 dark:text-green-100">
+              Success! You Have Bought the item with the selected EMI Plan.
+            </AlertTitle>
+          </Alert>
+        </div>
+      )}
+      {showValidationAlert && (
+        <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md px-4">
+          <Alert variant="destructive" className="animate-slide-in-right">
+            <AlertTitle>
+              Please select an EMI plan first before purchasing.
+            </AlertTitle>
+          </Alert>
+        </div>
+      )}
     </div>
   );
 }
