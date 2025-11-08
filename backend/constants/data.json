@@ -1,0 +1,153 @@
+[
+  {
+    "productName": "iPhone 17 Pro 256 GB",
+    "productPrice": 127400,
+    "productType": "Mobile",
+    "description": "The new iPhone 17 Pro with A19 Pro chip and advanced triple-camera system.",
+    "variants": [
+      {
+        "productColour": "Cosmic Orange",
+        "productImage": [
+          "https://m.media-amazon.com/images/I/51MKPhvvjmL._AC_SX522_.jpg",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/q/r/1/-original-imahft6cqn3ftf4p.jpeg?q=70&crop=false",
+          "https://m.media-amazon.com/images/I/51hrF0k7uEL._AC_SX569_.jpg"
+        ]
+      },
+      {
+        "productColour": "Deep Blue",
+        "productImage": [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/f/r/h/-original-imahft6chdhxfwhj.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/q/r/1/-original-imahft6cqn3ftf4p.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/e/a/x/-original-imahft6cggdjcqsv.jpeg?q=70&crop=false"
+        ]
+      },
+      {
+        "productColour": "Silver",
+        "productImage": [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/0/p/g/-original-imahft6cfwg6yta2.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/q/r/1/-original-imahft6cqn3ftf4p.jpeg?q=70&crop=false",
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/3/y/r/-original-imahft6cq9fpa2ch.jpeg?q=70&crop=false"
+        ]
+      }
+    ],
+    "emiPlans": [
+      {
+        "durationMonths": 6,
+        "monthlyAmount": 22483,
+        "interestRate": 0,
+        "cashback": 7500
+      },
+      {
+        "durationMonths": 12,
+        "monthlyAmount": 11242,
+        "interestRate": 0,
+        "cashback": 7500
+      },
+      {
+        "durationMonths": 24,
+        "monthlyAmount": 5621,
+        "interestRate": 10.5,
+        "cashback": 7500
+      }
+    ],
+    "discountPrice": 134900
+  },
+  {
+    "productName": "Samsung Galaxy S25 Ultra 12GB/256GB",
+    "productPrice": 104400,
+    "productType": "Mobile",
+    "description": "Samsung flagship with 200MP quad camera and stunning AMOLED display.",
+    "variants": [
+      {
+        "productColour": "Titanium Black",
+        "productImage": [
+          "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s938-sm-s938bakbins-544702688?imbypass=true",
+          "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s938-sm-s938bakbins-544702653?imbypass=true",
+          "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s938-sm-s938bakbins-544702658?imbypass=true"
+        ]
+      },
+      {
+        "productColour": "Titanium Gray",
+        "productImage": [
+          "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s938-sm-s938bztcins-thumb-544702985?imbypass=true",
+          "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s938-sm-s938bztcins-thumb-544702982?imbypass=true",
+          "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s938-sm-s938bztcins-thumb-544702970?imbypass=true"
+        ]
+      },
+      {
+        "productColour": "Titanium Silver",
+        "productImage": [
+          "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s938-sm-s938bzscins-thumb-544702874?imbypass=true",
+          "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s938-sm-s938bzscins-thumb-544702855?imbypass=true",
+          "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s938-sm-s938bzscins-thumb-544702860?imbypass=true"
+        ]
+      }
+    ],
+    "emiPlans": [
+      {
+        "durationMonths": 6,
+        "monthlyAmount": 17400,
+        "interestRate": 0,
+        "cashback": 10000
+      },
+      {
+        "durationMonths": 12,
+        "monthlyAmount": 8700,
+        "interestRate": 5,
+        "cashback": 10000
+      },
+      {
+        "durationMonths": 24,
+        "monthlyAmount": 4600,
+        "interestRate": 8,
+        "cashback": 10000
+      }
+    ],
+    "discountPrice": 114999
+  },
+  {
+    "productName": "OnePlus 13R 12GB/256GB",
+    "productPrice": 39914,
+    "productType": "Mobile",
+    "description": "High-performance OnePlus device with AMOLED display and long battery life.",
+    "variants": [
+      {
+        "productColour": "Astral Trail",
+        "productImage": [
+          "https://m.media-amazon.com/images/I/61++T836jiL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+          "https://m.media-amazon.com/images/I/61EbUR6U18L._AC_UF350,350_QL80_FMwebp_.jpg",
+          "https://m.media-amazon.com/images/I/71rPMsQJv2L._AC_UF1000,1000_QL80_FMwebp_.jpg"
+        ]
+      },
+      {
+        "productColour": "Nebula Noir",
+        "productImage": [
+          "https://m.media-amazon.com/images/I/61muVCIy-uL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+          "https://m.media-amazon.com/images/I/51KYAzenTfL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+          "https://m.media-amazon.com/images/I/71rPMsQJv2L._AC_UF1000,1000_QL80_FMwebp_.jpg"
+        ]
+      }
+    ],
+    "emiPlans": [
+      {
+        "durationMonths": 6,
+        "monthlyAmount": 6987,
+        "interestRate": 0,
+        "cashback": 2000
+      },
+      {
+        "durationMonths": 12,
+        "monthlyAmount": 3494,
+        "interestRate": 5,
+        "cashback": 2000
+      },
+      {
+        "durationMonths": 24,
+        "monthlyAmount": 1800,
+        "interestRate": 8,
+        "cashback": 2000
+      }
+    ],
+    "discountPrice": 42999
+  }
+]
