@@ -8,7 +8,7 @@ const app = express();
 const port = envConfig.port;
 app.use(
   cors({
-    origin: ["http://localhost:3000", envConfig.frontendUrl],
+    origin: ["http://localhost:3000", "https://emi-products.vercel.app"],
   }),
 );
 app.use("/product", productRouter);
